@@ -1,4 +1,4 @@
-/*! v1.4 */
+/*! v1.5 */
 body * {
     box-sizing: border-box;
 }
@@ -393,16 +393,20 @@ body a {
     width: auto;
 }
 #selected-filters-container button {
-    margin: auto;
-    line-height: normal;
-    letter-spacing: normal;
-    padding: 0;
+    margin: auto !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    text-transform: none !important;
 }
 #searchfield-container button {
-    margin: auto;
-    line-height: normal;
-    letter-spacing: normal;
-    padding: 0;
+    margin: auto !important;
+    line-height: normal !important;
+    letter-spacing: normal !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    text-transform: none !important;
 }
 .filters-inner-wrapper input[type=checkbox] {
     position: inherit;
