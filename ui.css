@@ -1,4 +1,4 @@
-/*! v1.6 */
+/*! v1.7 */
 body * {
     box-sizing: border-box;
 }
@@ -399,6 +399,9 @@ body a {
     font-size: inherit !important;
     text-transform: none !important;
 }
+#selected-filters-container button::before {
+    content: none;
+}
 #selected-filters-container button::after {
     content: none;
 }
@@ -408,6 +411,9 @@ body a {
     letter-spacing: normal !important;
     font-size: inherit !important;
     text-transform: none !important;
+}
+#searchfield-container button::before {
+    content: none;
 }
 #searchfield-container button::after {
     content: none;
