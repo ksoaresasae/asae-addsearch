@@ -1,4 +1,4 @@
-/*! v1.2 */
+/*! v1.3 */
 body * {
     box-sizing: border-box;
 }
@@ -388,6 +388,21 @@ body a {
 #global-autocomplete-container .adds-hit .adds-hit-wrapper {
     border: 1px solid #dcdcdc;
     border-radius: 2px;
+}
+.addsearch-active-filters .item {
+    width: auto;
+}
+#selected-filters-container button {
+    margin: auto;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0;
+}
+#searchfield-container button {
+    margin: auto;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0;
 }
 #selected-filters-container .item {
     align-items: center;
