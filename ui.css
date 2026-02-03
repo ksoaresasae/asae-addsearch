@@ -1,4 +1,4 @@
-/*! v1.5 */
+/*! v1.6 */
 body * {
     box-sizing: border-box;
 }
@@ -396,17 +396,21 @@ body a {
     margin: auto !important;
     line-height: normal !important;
     letter-spacing: normal !important;
-    padding: 0 !important;
     font-size: inherit !important;
     text-transform: none !important;
+}
+#selected-filters-container button::after {
+    content: none;
 }
 #searchfield-container button {
     margin: auto !important;
     line-height: normal !important;
     letter-spacing: normal !important;
-    padding: 0 !important;
     font-size: inherit !important;
     text-transform: none !important;
+}
+#searchfield-container button::after {
+    content: none;
 }
 .filters-inner-wrapper input[type=checkbox] {
     position: inherit;
