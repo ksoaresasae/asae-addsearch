@@ -1,4 +1,4 @@
-/*! v1.3 */
+/*! v1.4 */
 !(function () {
     var e = new AddSearchClient("a56943b404b07809760272938b643a2b");
     e.setSearchOperator("and");

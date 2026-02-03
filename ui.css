@@ -1,4 +1,4 @@
-/*! v1.3 */
+/*! v1.4 */
 body * {
     box-sizing: border-box;
 }
@@ -403,6 +403,9 @@ body a {
     line-height: normal;
     letter-spacing: normal;
     padding: 0;
+}
+.filters-inner-wrapper input[type=checkbox] {
+    position: inherit;
 }
 #selected-filters-container .item {
     align-items: center;
